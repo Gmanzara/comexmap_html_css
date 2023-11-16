@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>COMEXMAP</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <!-- <style>
+    *{
+        overflow: auto;
+    }
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+            width: 100%;
+            
+        }
+    .head{
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .logo{
+        font-size: 28px;
+        color: rgb(239, 139, 16);
+        padding: 10px 10px;
+    }
+    .part2{
+        color:rgb(7, 168, 7);
+    }
+    .menu{
+
+    }
+    .vertical-menu {
+        width: 400px; /* Set a width if you like */
+       
+    }
+
+    .vertical-menu a {
+        background-color: white; /* Grey background color */
+        color: rgb(69, 66, 66); /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 18px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+        font-size: 18px;
+        font-weight: 530;
+    }
+
+    .vertical-menu a:hover {
+        background-color: #ccc; /* Dark grey background on mouse-over */
+    }
+
+    .vertical-menu a.active {
+        background-color:  rgb(239, 139, 16); /* Add a green color to the "active/current" link */
+        color: white;
+    }
+    .dashboard{
+        display: flex;
+        margin-top: 5px;
+    }
+    .details{
+        background-color: #eee;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .details label{
+        margin-top: 10px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    
+    /* label{margin-top: 30px;} */
+    form{
+        margin-top: 3%;
+    }
+    input[type=text]{
+        margin-top: 10px;
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        display: block;
+    }
+    .annee{
+        margin:30px 0;
+        color: rgb(7, 168, 7);
+        font-size: 18px;
+    }
+    .info{
+        height: 50px;
+        border-radius: 5px;
+        display: flex;
+        margin-right: 10px;
+        position: relative;
+    }
+    div.blue{
+        background-color: rgb(220, 220, 236);
+
+    }
+    div.green{
+        margin: 1% 0;
+        background-color: rgb(220, 236, 223);
+        margin-right: 10px;
+    }
+    .country{
+        margin: 10px 10px;
+    }
+    .rising{
+        margin: 10px 10px;
+        position: absolute;
+        right: 0;
+    }
+  </style> -->
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="logo">COMEX<span class="part2">MAP</span></div>
+        </div>
+        <div class="dashboard">
+            <div class="vertical-menu">
+                <a href="#" >Tableau de bord</a>
+                <a href="#">Produits</a>
+                <a href="#" class="active">Flux commerciaux</a>
+                <a href="#">Accords commerciaux</a>
+            </div>
+            <div class="details">
+                <form action="">
+                    <label for="fcom"> Flux Commerciaux</label>
+                    <input type="text" name="fcom">
+                </form>
+                <div class="annee">2003</div>
+                <div class="scroll">
+                    <div class="info blue">
+                        <div class="country">Mali</div>
+                        <div class="rising">2 Millards</div>
+                    </div>
+                    <div class="info green">
+                        <div class="country">Somali</div>
+                        <div class="rising">1 Millard</div>
+                    </div>
+                    <div class="info blue">
+                        <div class="country">Côte d'Ivoire</div>
+                        <div class="rising">25 Millards</div>
+                    </div>
+                    <div class="info green">
+                        <div class="country">Ghana</div>
+                        <div class="rising">5 Millards</div>
+                    </div>
+                    <div class="info blue">
+                        <div class="country">Gabon</div>
+                        <div class="rising">2 Millards</div>
+                    </div>
+                    <div class="info green">
+                        <div class="country">Guinée</div>
+                        <div class="rising">1 Millards</div>
+                    </div>
+                    <div class="info blue">
+                        <div class="country">Gabon</div>
+                        <div class="rising">2 Millards</div>
+                    </div>
+                    <div class="info green">
+                        <div class="country">Guinée</div>
+                        <div class="rising">1 Millards</div>
+                    </div>
+                    <div class="info blue">
+                        <div class="country">Gabon</div>
+                        <div class="rising">2 Millards</div>
+                    </div>
+                    <div class="info green">
+                        <div class="country">Guinée</div>
+                        <div class="rising">1 Millards</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
